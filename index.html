@@ -238,10 +238,16 @@
 <section id="s4">
   <div class="sec-head"><div class="num">04</div><h2>Recommendations — Fixing the Funnel Leakage</h2></div>
 
+  <p class="prose">Two root causes of the lower registration→attendance conversion were confirmed on the review call — both are fixed below (items 1–2), alongside the channel, content and tracking actions the team must follow so W3's mistakes are not repeated.</p>
+
   <ol class="recs">
     <li>
-      <strong>Send all reminders from the WebinarGeek email handle</strong>
-      <span>— confirmation, 1-day, 1-hour and going-live — and keep syncing to GoHighLevel for tracking. (Reminders currently fire from GHL and open well — 1-hour reminder: 460 delivered, 46% open, 34% click — but registrants get no WebinarGeek calendar hold or single consistent join link. Consolidate the sending on WebinarGeek, the data in GHL.)</span>
+      <strong>Send all webinar emails and reminders from WebinarGeek — not GHL.</strong>
+      <span>W3 sent its confirmations and reminders through GoHighLevel, and <strong>GHL email deliverability was identified as the primary driver</strong> of the drop in registration→attendee conversion (W1 and W2 sent via WebinarGeek and converted far better). Send confirmation, 1-day, 1-hour and going-live from WebinarGeek — which also gives every registrant a proper calendar hold and one consistent join link — and keep syncing to GHL for tracking only.</span>
+    </li>
+    <li>
+      <strong>Don't let cold-calendar RSVPs inflate the registration count.</strong>
+      <span>Anyone who replies <strong>RSVP Yes <em>or</em> Maybe</strong> to a Tantra calendar invite is <strong>automatically added as a registration inside WebinarGeek</strong>, despite never actively signing up. This pads the registrant number with cold, low-intent contacts and is the <strong>second driver</strong> of the low registration→attendance rate. Separate these auto-added cold-calendar RSVPs from genuine (landing-page) registrations when measuring conversion — and consider disabling the auto-add — so the funnel reflects real intent, not calendar noise.</span>
     </li>
     <li>
       <strong>Add WhatsApp as a reminder channel (via Twilio)</strong>
@@ -265,6 +271,10 @@
     <li>
       <strong>Make the webinar content more actionable.</strong>
       <span>Expand the 3-step framework across ~3 more slides with concrete, do-this-now steps — the retention curve above shows heavy end-of-webinar drop-off, where at least half should stay to reach the CTA.</span>
+    </li>
+    <li>
+      <strong>Standardise call scheduling and tracking.</strong>
+      <span>Book every call from a single shared, tracked account — never personal inboxes — and add the account manager to <strong>all</strong> calls, so no booked call is invisible in reporting or missed in follow-up. (W3-cycle calls were being scheduled from team members' personal emails, leaving booked calls unseen by the account owner.)</span>
     </li>
   </ol>
 </section>
